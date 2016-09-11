@@ -26,8 +26,8 @@ dev PC, you can start the `frida-server` with the following command:
 This of course, assumes you're currently in the same directory as the
 `frida-server` binary and want to listen on all interfaces. If you'd rather
 everyone on your local network *not* have the ability to run arbitrary commands
-on your Chromebok, omit the `-l 0.0.0.0` and use an SSH tunnel to `frida-server`
-instead.
+on your Chromebook, omit the `-l 0.0.0.0` and use an SSH tunnel to
+`frida-server` instead.
 
 With `frida-server` running, `cd` to the directory the \_\_handlers\_\_
 directory is in (the same as this README file) and run the following command:
