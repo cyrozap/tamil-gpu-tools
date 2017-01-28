@@ -1,13 +1,13 @@
 # ioctl tracer
 
 This is a collection of scripts that allow you to trace and pretty-print the
-`ioctl()` calls made `libMali.so`. To use them, you must have a Mali-Txxx GPU
+`ioctl()` calls made by `libMali.so`. To use them, you must have a Mali-Txxx GPU
 that uses the `gpu/arm/midgard` kernel driver and a compatible version of
 `libMali.so`.
 
 ## Trace Setup
 
-* Hisense Chromebook C11 (though any other RK3288-based chromebook should do)
+* Hisense Chromebook C11 (though any other RK3288-based Chromebook should do)
 * [Arch Linux ARM][alarm-veyron]
 * libMali r5p0-14wk51 from the [veyron-libgl][veyron-libgl] package
 * [xf86-video-armsoc-rockchip][xf86-video-armsoc-rockchip]
